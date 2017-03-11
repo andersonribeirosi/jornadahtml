@@ -25,7 +25,7 @@ header{
 
 
 section{
-	background-color: grey;
+	background-color: #BDBDBD;
 	padding: 15px;
 	margin: 25px;
 	border-radius: 10px;
@@ -33,9 +33,10 @@ section{
 }
 
 footer{
-	background-color: green;
+	background-color: #778899;
 	/*position: absolute;
 	bottom: 0;*/
 	width: 100%;
 	text-align: center;
+	padding: 15px;
 }
