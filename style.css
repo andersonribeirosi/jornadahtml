@@ -1,0 +1,41 @@
+body{
+	background-color: white;
+	margin: 0;
+}
+
+
+header{
+	background-color: #778899;
+	text-align: center;
+	padding: 15px;
+	/*border-radius: 20px;*/
+}
+
+	header .profile-picture {
+		width: 125px;
+		height: 125px;
+		display: block;
+		margin: 0 auto;
+		border-radius: 50px;
+	}
+
+	header .autor{
+		font-family: arial;
+	}
+
+
+section{
+	background-color: grey;
+	padding: 15px;
+	margin: 25px;
+	border-radius: 10px;
+	
+}
+
+footer{
+	background-color: green;
+	/*position: absolute;
+	bottom: 0;*/
+	width: 100%;
+	text-align: center;
+}
