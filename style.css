@@ -1,13 +1,22 @@
+*{
+
+	box-sizing: border-box;
+}
+
+
 body{
 	background-color: white;
 	margin: 0;
+	
 }
 
 
 header{
-	background-color: #778899;
+	background-color: #212121;
 	text-align: center;
-	padding: 15px;
+	/*padding: 15px;*/
+	font-family: 'Ranga', cursive;
+	color: white;
 	/*border-radius: 20px;*/
 }
 
@@ -16,11 +25,8 @@ header{
 		height: 125px;
 		display: block;
 		margin: 0 auto;
-		border-radius: 50px;
-	}
+		border-radius: 100px;
 
-	header .autor{
-		font-family: arial;
 	}
 
 
@@ -32,11 +38,27 @@ section{
 	
 }
 
+section .title{
+	color: #212121;
+
+}
+
+section .content{
+	color: #263238;
+
+}
+
+
+
 footer{
-	background-color: #778899;
+	background-color: #212121;
+	/*background-color: #778899;*/
+	padding: 15px;
+	color: white;
+	text-align: center;
+	/*width: 100%;*/
 	/*position: absolute;
 	bottom: 0;*/
-	width: 100%;
-	text-align: center;
-	padding: 15px;
 }
+
+
